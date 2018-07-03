@@ -1,0 +1,54 @@
+{
+  "name": "cmos-view-nunjucks",
+  "version": "2.0.12-alpha",
+  "description": "nunjucks view plugin for cmos server",
+  "cmosPlugin": {
+    "name": "nunjucks",
+    "dep": [
+      "security",
+      "view"
+    ]
+  },
+  "keywords": [
+    "cmos",
+    "cmosPlugin",
+    "cmos-plugin",
+    "cmos-view",
+    "nunjucks"
+  ],
+  "dependencies": {
+    "nunjucks": "^3.0.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cheerio": "^1.0.0-rc.1",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "cmos-view": "^2.0.12-alpha",
+    "common-tags": "^1.4.0",
+    "marked": "^0.3.6",
+    "nunjucks-markdown": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "files": [
+    "app",
+    "config",
+    "lib",
+    "app.js"
+  ],
+  "scripts": {
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "license": "MIT"
+}

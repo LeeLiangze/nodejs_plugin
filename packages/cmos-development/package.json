@@ -1,0 +1,48 @@
+{
+  "name": "cmos-development",
+  "version": "2.0.12-alpha",
+  "description": "development tool for cmos server",
+  "cmosPlugin": {
+    "name": "development",
+    "env": [
+      "local"
+    ],
+    "dependencies": [
+      "watcher"
+    ]
+  },
+  "keywords": [
+    "plugin",
+    "cmos-plugin"
+  ],
+  "dependencies": {
+    "debounce": "^1.0.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "ko-sleep": "^1.0.2",
+    "rimraf": "^2.5.4",
+    "supertest": "^2.0.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 7"
+  },
+  "files": [
+    "agent.js",
+    "app",
+    "config",
+    "app.js"
+  ],
+  "license": "MIT"
+}

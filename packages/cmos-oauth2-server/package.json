@@ -1,0 +1,48 @@
+{
+  "name": "cmos-oauth2-server",
+  "version": "2.0.12-alpha",
+  "description": "koa-oauth-server(node-oauth2-server) plugin for cmos server",
+  "cmosPlugin": {
+    "name": "oauth2Server"
+  },
+  "keywords": [
+    "cmos",
+    "cmosPlugin",
+    "cmos-plugin",
+    "oauth",
+    "oauth-server",
+    "oauth2",
+    "oauth2-server"
+  ],
+  "dependencies": {
+    "koa-oauth-server": "^1.0.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "chai": "^3.5.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT"
+}

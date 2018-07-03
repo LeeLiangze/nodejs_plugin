@@ -1,0 +1,46 @@
+{
+  "name": "cmos-onerror",
+  "version": "2.0.12-alpha",
+  "description": "error handler for cmos",
+  "cmosPlugin": {
+    "name": "onerror"
+  },
+  "files": [
+    "config",
+    "lib",
+    "app.js",
+    "agent.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "keywords": [
+    "cmos",
+    "cmos-plugin",
+    "onerror"
+  ],
+  "dependencies": {
+    "cookie": "^0.3.1",
+    "koa-onerror": "^3.1.0",
+    "mustache": "^2.3.0",
+    "stack-trace": "0.0.10"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "pedding": "^1.1.0",
+    "rimraf": "^2.6.1"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 8"
+  }
+}

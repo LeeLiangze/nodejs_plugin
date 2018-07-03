@@ -1,0 +1,12 @@
+{
+  "lerna": "2.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "message": "config: publish %s"
+    }
+  },
+  "version": "2.0.12-alpha"
+}

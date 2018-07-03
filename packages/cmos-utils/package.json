@@ -1,0 +1,43 @@
+{
+  "name": "cmos-utils",
+  "version": "2.0.12-alpha",
+  "description": "Utils for cmos server projects",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "lib"
+  ],
+  "scripts": {
+    "autod": "autod"
+  },
+  "keywords": [
+    "cmos",
+    "utils"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "mkdirp": "^0.5.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos-bin": "^2.0.12-alpha",
+    "coffee": "^3.3.2",
+    "cpy": "^5.0.0",
+    "mm": "^2.1.0",
+    "mz-modules": "^1.0.0",
+    "npm": "2",
+    "runscript": "^1.2.1",
+    "ypkgfiles": "^1.2.0"
+  },
+  "engine": {
+    "node": ">=6.0.0"
+  },
+  "ci": {
+    "version": "6, 7, 8",
+    "license": true
+  }
+}

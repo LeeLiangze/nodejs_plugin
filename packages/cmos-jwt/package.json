@@ -1,0 +1,47 @@
+{
+  "name": "cmos-jwt",
+  "version": "2.0.12-alpha",
+  "description": "JWT authentication plugin for cmos server",
+  "cmosPlugin": {
+    "name": "jwt"
+  },
+  "keywords": [
+    "cmos",
+    "cmos-plugin",
+    "jwt"
+  ],
+  "dependencies": {
+    "jsonwebtoken": "^7.4.1",
+    "koa-jwt": "^2.2.4"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 7, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "license": "MIT"
+}

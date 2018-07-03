@@ -1,0 +1,35 @@
+{
+  "name": "cmos-redis",
+  "version": "2.0.12-alpha",
+  "description": "Redis plugin for cmos server",
+  "cmosPlugin": {
+    "name": "redis"
+  },
+  "keywords": [
+    "redis",
+    "database"
+  ],
+  "dependencies": {
+    "ioredis": "^2.5.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "supertest": "^3.0.0",
+    "utility": "^1.9.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "license": "MIT"
+}

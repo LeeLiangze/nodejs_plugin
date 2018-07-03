@@ -1,0 +1,46 @@
+{
+  "name": "cmos-view",
+  "version": "2.0.12-alpha",
+  "description": "Base view plugin for cmos server",
+  "cmosPlugin": {
+    "name": "view"
+  },
+  "keywords": [
+    "cmos",
+    "cmos-plugin",
+    "cmos-view",
+    "view"
+  ],
+  "dependencies": {
+    "co": "^4.6.0",
+    "mz": "^2.6.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "mz-modules": "^1.0.0",
+    "webstorm-disable-index": "^1.1.2"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "files": [
+    "app",
+    "lib",
+    "config"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "license": "MIT"
+}

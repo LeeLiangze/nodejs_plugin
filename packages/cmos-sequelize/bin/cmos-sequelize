@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+CMOS_SEQUELIZE_ROOT=./node_modules/cmos-sequelize
+SEQUELIZE_ROOT=$CMOS_SEQUELIZE_ROOT/node_modules/sequelize-cli
+if [ ! -d "$SEQUELIZE_ROOT" ]; then
+    SEQUELIZE_ROOT=./node_modules/sequelize-cli
+fi
+$SEQUELIZE_ROOT/bin/sequelize --optionsPath $CMOS_SEQUELIZE_ROOT/lib/sequelizerc.js $@

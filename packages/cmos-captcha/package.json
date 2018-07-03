@@ -1,0 +1,11 @@
+{
+  "name": "cmos-captcha",
+  "version": "2.0.12-alpha",
+  "description": "Captcha utils for cmos server / 验证码",
+  "main": "index.js",
+  "repository": "http://192.168.100.10/Lee/server-plugin/tree/master/cmos-captcha",
+  "license": "MIT",
+  "dependencies": {
+    "gd-bmp": "^1.2.4"
+  }
+}

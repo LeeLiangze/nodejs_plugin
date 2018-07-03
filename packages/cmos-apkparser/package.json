@@ -1,0 +1,8 @@
+{
+  "name": "cmos-apkparser",
+  "version": "2.0.12-alpha",
+  "description": "cmos server 安卓包解析工具",
+  "main": "lib/index.js",
+  "bundleDependencies": false,
+  "deprecated": false
+}

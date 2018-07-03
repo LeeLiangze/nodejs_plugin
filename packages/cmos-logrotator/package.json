@@ -1,0 +1,48 @@
+{
+  "name": "cmos-logrotator",
+  "version": "2.0.12-alpha",
+  "description": "logrotator for cmos",
+  "cmosPlugin": {
+    "name": "logrotator",
+    "dep": [
+      "schedule"
+    ]
+  },
+  "keywords": [
+    "plugin"
+  ],
+  "dependencies": {
+    "debug": "^2.6.0",
+    "moment": "^2.17.1",
+    "mz": "^2.6.0"
+  },
+  "files": [
+    "agent.js",
+    "app",
+    "config",
+    "app.js"
+  ],
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "glob": "^7.1.1",
+    "pedding": "1",
+    "supertest": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git"
+}

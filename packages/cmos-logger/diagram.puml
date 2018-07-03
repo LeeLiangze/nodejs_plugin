@@ -1,0 +1,37 @@
+@startuml
+
+title cmos-logger
+
+package Logger <<Node>> {
+  package Cmos <<Node>> {
+    class CmosLogger
+    class CmosErrorLogger
+    class CmosCustomLogger
+    class ConsoleLogger
+  }
+
+  class Logger {
+    +Array transports
+  }
+
+  CmosLogger <|-- CmosErrorLogger: Inheritance
+  CmosLogger <|-- CmosCustomLogger: Inheritance
+  Logger <|-- CmosLogger: Inheritance
+  Logger <|-- ConsoleLogger: Inheritance
+}
+
+
+package Transport <<Node>> {
+  class Transport
+  class FileTransport
+  class ConsoleTransport
+
+  Transport <|-up- FileTransport: Inheritance
+  Transport <|-up- ConsoleTransport: Inheritance
+}
+
+ConsoleTransport <|-- ConsoleLogger: use
+ConsoleTransport <|-- CmosLogger: use
+FileTransport <|-- CmosLogger: use
+
+@enduml

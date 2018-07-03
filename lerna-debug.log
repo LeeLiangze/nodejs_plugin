@@ -1,0 +1,117 @@
+0 silly input [ 'publish' ]
+1 silly flags { _: [ 'publish' ] }
+2 verbose rootPath /Users/douzi/WebstormProjects/server-plugin/server-plugin
+3 info version 2.0.0
+4 silly isInitialized
+5 silly isInitialized true
+6 silly existsSync /Users/douzi/WebstormProjects/server-plugin/server-plugin/VERSION
+7 silly initialize attempt
+8 info current version 2.0.11-alpha
+9 silly getUpdates
+10 info Checking for updated packages...
+11 silly hasTags
+12 verbose hasTags true
+13 silly getLastTag
+14 verbose getLastTag v2.0.11-alpha
+15 info Comparing with v2.0.11-alpha.
+16 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-apkparser
+17 silly diff
+18 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-bin
+19 silly diff
+20 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-captcha
+21 silly diff
+22 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-cluster
+23 silly diff
+24 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-cookies
+25 silly diff
+26 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-core
+27 silly diff
+28 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-cors
+29 silly diff
+30 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-development
+31 silly diff
+32 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-i18n
+33 silly diff
+34 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-jsonp
+35 silly diff
+36 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-jwt
+37 silly diff
+38 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-logger
+39 silly diff
+40 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-logrotator
+41 silly diff
+42 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-mock
+43 silly diff
+44 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-multipart
+45 silly diff
+46 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-oauth2-server
+47 silly diff
+48 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-onerror
+49 silly diff
+50 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-path-matching
+51 silly diff
+52 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-redis
+53 silly diff
+54 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-schedule
+55 silly diff
+56 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-security
+57 silly diff
+58 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-sequelize
+59 silly diff
+60 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-session-redis
+61 silly diff
+62 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-session
+63 silly diff
+64 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-static
+65 silly diff
+66 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-utils
+67 silly diff
+68 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-validate
+69 silly diff
+70 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-view-nunjucks
+71 silly diff
+72 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-view
+73 silly diff
+74 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos-watcher
+75 silly diff
+76 silly diffSinceIn v2.0.11-alpha /Users/douzi/WebstormProjects/server-plugin/server-plugin/packages/cmos
+77 silly diff
+78 silly collectDependents
+79 silly collectUpdates
+80 info No updated packages to publish.
+81 silly initialize success
+82 silly execute attempt
+83 silly isDetachedHead
+84 silly getCurrentBranch
+85 verbose getCurrentBranch master
+86 verbose isDetachedHead false
+87 silly addFile /Users/douzi/WebstormProjects/server-plugin/server-plugin/lerna.json
+88 silly commit vundefined
+89 verbose commit [ 'commit', '-m', 'vundefined' ]
+90 silly addTag vundefined
+91 error execute Error: fatal: tag 'vundefined' already exists
+91 error execute
+91 error execute     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:277:26)
+91 error execute     at Function.execSync (/usr/local/lib/node_modules/lerna/lib/ChildProcessUtilities.js:59:30)
+91 error execute     at Function.addTag (/usr/local/lib/node_modules/lerna/lib/GitUtilities.js:90:39)
+91 error execute     at PublishCommand.gitCommitAndTagVersion (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:613:30)
+91 error execute     at PublishCommand.commitAndTagUpdates (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:582:27)
+91 error execute     at PublishCommand.execute (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:261:16)
+91 error execute     at PublishCommand._attempt (/usr/local/lib/node_modules/lerna/lib/Command.js:289:21)
+91 error execute     at /usr/local/lib/node_modules/lerna/lib/Command.js:276:15
+91 error execute     at /usr/local/lib/node_modules/lerna/lib/Command.js:298:13
+91 error execute     at PublishCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:220:9)
+91 error execute  callback with error
+91 error execute  { Error: fatal: tag 'vundefined' already exists
+91 error execute
+91 error execute     at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:277:26)
+91 error execute     at Function.execSync (/usr/local/lib/node_modules/lerna/lib/ChildProcessUtilities.js:59:30)
+91 error execute     at Function.addTag (/usr/local/lib/node_modules/lerna/lib/GitUtilities.js:90:39)
+91 error execute     at PublishCommand.gitCommitAndTagVersion (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:613:30)
+91 error execute     at PublishCommand.commitAndTagUpdates (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:582:27)
+91 error execute     at PublishCommand.execute (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:261:16)
+91 error execute     at PublishCommand._attempt (/usr/local/lib/node_modules/lerna/lib/Command.js:289:21)
+91 error execute     at /usr/local/lib/node_modules/lerna/lib/Command.js:276:15
+91 error execute     at /usr/local/lib/node_modules/lerna/lib/Command.js:298:13
+91 error execute     at PublishCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:220:9)
+91 error execute   stack: 'Error: fatal: tag \'vundefined\' already exists\n\n    at Function.module.exports.sync (/usr/local/lib/node_modules/lerna/node_modules/execa/index.js:277:26)\n    at Function.execSync (/usr/local/lib/node_modules/lerna/lib/ChildProcessUtilities.js:59:30)\n    at Function.addTag (/usr/local/lib/node_modules/lerna/lib/GitUtilities.js:90:39)\n    at PublishCommand.gitCommitAndTagVersion (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:613:30)\n    at PublishCommand.commitAndTagUpdates (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:582:27)\n    at PublishCommand.execute (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:261:16)\n    at PublishCommand._attempt (/usr/local/lib/node_modules/lerna/lib/Command.js:289:21)\n    at /usr/local/lib/node_modules/lerna/lib/Command.js:276:15\n    at /usr/local/lib/node_modules/lerna/lib/Command.js:298:13\n    at PublishCommand.initialize (/usr/local/lib/node_modules/lerna/lib/commands/PublishCommand.js:220:9)' }

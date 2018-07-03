@@ -1,0 +1,6 @@
+logs/
+npm-debug.log
+node_modules/
+coverage/
+test/fixtures/**/run/
+package-lock.json

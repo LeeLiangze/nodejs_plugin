@@ -1,0 +1,40 @@
+{
+  "name": "cmos-rbac",
+  "version": "2.0.12-alpha",
+  "description": "user role plugin for cmos",
+  "cmosPlugin": {
+    "name": "rbac"
+  },
+  "keywords": [
+    "cmos",
+    "plugin",
+    "rbac"
+  ],
+  "files": [
+    "config",
+    "app.js"
+  ],
+  "dependencies": {
+    "koa-roles": "^1.0.3"
+  },
+  "devDependencies": {
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "test": "npm run lint -- --fix && npm run test-local",
+    "autod": "autod"
+  },
+  "ci": {
+    "version": "6, 7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git"
+}

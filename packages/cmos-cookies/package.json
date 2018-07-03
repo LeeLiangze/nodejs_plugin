@@ -1,0 +1,39 @@
+{
+  "name": "cmos-cookies",
+  "version": "2.0.12-alpha",
+  "description": "cookies module for cmos server",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/cookies.js",
+  "dependencies": {
+    "debug": "^2.3.3",
+    "scmp": "^2.0.0",
+    "utility": "^1.9.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "beautify-benchmark": "^0.2.4",
+    "benchmark": "^2.1.2",
+    "cmos-bin": "^2.0.12-alpha",
+    "cookies": "^0.6.2",
+    "keygrip": "^1.0.1",
+    "power-assert": "^1.4.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "scripts": {
+    "lint": "eslint index.js test",
+    "ci": "npm run lint && npm run cov",
+    "autod": "autod"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "ci": {
+    "version": "4, 6, 7"
+  }
+}

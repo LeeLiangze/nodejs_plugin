@@ -1,0 +1,47 @@
+{
+  "name": "cmos-watcher",
+  "version": "2.0.12-alpha",
+  "description": "file watcher plugin for cmos server",
+  "cmosPlugin": {
+    "name": "watcher"
+  },
+  "files": [
+    "app.js",
+    "agent.js",
+    "config",
+    "lib"
+  ],
+  "scripts": {
+    "autod": "autod"
+  },
+  "dependencies": {
+    "camelcase": "^4.1.0",
+    "sdk-base": "^3.1.1",
+    "wt": "^1.1.1"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "ko-sleep": "^1.0.2",
+    "pedding": "^1.1.0"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "keywords": [
+    "cmos-watcher",
+    "cmos",
+    "watcher",
+    "watch"
+  ],
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "ci": {
+    "version": "6, 7"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "name": "cmos-jsonp",
+  "version": "2.0.12-alpha",
+  "description": "jsonp support for cmos server",
+  "cmosPlugin": {
+    "name": "jsonp",
+    "optionalDependencies": [
+      "security"
+    ]
+  },
+  "keywords": [
+    "cmos-plugin",
+    "jsonp",
+    "security"
+  ],
+  "dependencies": {
+    "is-type-of": "^1.0.0",
+    "jsonp-body": "^1.0.0"
+  },
+  "devDependencies": {
+    "autod": "^2.8.0",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "supertest": "^3.0.0",
+    "webstorm-disable-index": "^1.2.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "autod": "autod"
+  },
+  "files": [
+    "index.js",
+    "app.js",
+    "agent.js",
+    "config",
+    "app",
+    "lib"
+  ],
+  "ci": {
+    "version": "6, 7, 8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git"
+}

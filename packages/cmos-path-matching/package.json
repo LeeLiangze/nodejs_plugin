@@ -1,0 +1,32 @@
+{
+  "name": "cmos-path-matching",
+  "version": "2.0.12-alpha",
+  "description": "match or ignore url path",
+  "main": "index.js",
+  "scripts": {
+    "autod": "autod"
+  },
+  "keywords": [
+    "url",
+    "match",
+    "ignore"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "path-to-regexp": "^1.7.0"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "cmos-bin": "^2.0.12-alpha"
+  },
+  "engine": {
+    "node": ">=4"
+  },
+  "ci": {
+    "version": "4,5,6"
+  }
+}

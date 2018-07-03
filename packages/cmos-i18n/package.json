@@ -1,0 +1,43 @@
+{
+  "name": "cmos-i18n",
+  "version": "2.0.12-alpha",
+  "cmosPlugin": {
+    "name": "i18n"
+  },
+  "description": "i18n plugin for cmos server",
+  "main": "index.js",
+  "scripts": {
+    "autod": "autod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://192.168.100.10/Lee/server-plugin.git"
+  },
+  "keywords": [
+    "i18n"
+  ],
+  "homepage": "http://192.168.100.10/Lee/server-plugin.git",
+  "engines": {
+    "node": ">= 6.0.0"
+  },
+  "files": [
+    "app",
+    "config",
+    "app.js"
+  ],
+  "ci": {
+    "version": "6, 7"
+  },
+  "dependencies": {
+    "debug": "^2.6.0",
+    "koa-locales": "^1.5.2"
+  },
+  "devDependencies": {
+    "autod": "^2.7.1",
+    "cmos": "^2.0.12-alpha",
+    "cmos-bin": "^2.0.12-alpha",
+    "cmos-mock": "^2.0.12-alpha",
+    "pedding": "^1.1.0",
+    "supertest": "^2.0.1"
+  }
+}
